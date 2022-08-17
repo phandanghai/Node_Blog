@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ul {
+    display: flex;
+    justify-content: center;
+}
+
+.li {
+    margin: auto 10px;
+    list-style: none;
+}
+
+.red {
+    width: 200px;
+    height: 45px;
+    background-color: #db291d;
+    margin-bottom: 4px;
+    align-items: center;
+}
+
+.yellow {
+    width: 200px;
+    height: 6px;
+    background-color: #ee8c01
+}
+
+.image {
+    height: 45px;
+    width: auto;
+}
+
+.header2,.box2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.circleksystem {
+    
+}
