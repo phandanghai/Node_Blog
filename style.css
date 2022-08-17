@@ -39,4 +39,25 @@
     justify-content: space-between;
 }
 
+.checked {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.check-item {
+    background-color: green;
+    color:white;
+    border-radius:7px 7px 0 0;
+    /* border-top: red solid 10px; */
+    height: 75px;
+    width: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active {
+    border-top: red solid 10px;
+}
     
