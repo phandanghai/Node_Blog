@@ -4,11 +4,7 @@
     box-sizing: border-box;
 }
 
-#header {
-}
-
 .ul {
-    margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
@@ -24,17 +20,13 @@
     background-color: #db291d;
     margin-bottom: 4px;
     align-items: center;
+    
 }
 
 .yellow {
     width: 200px;
     height: 6px;
     background-color: #ee8c01
-}
-
-.img {
-    display: flex;
-    justify-content: center;
 }
 
 .image {
@@ -47,32 +39,4 @@
     justify-content: space-between;
 }
 
-.circleksystem {
     
-}
-
-#image{
-    ma
-}
-
-.checked {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.check-item {
-    background-color: green;
-    color:white;
-    border-radius:7px 7px 0 0;
-    /* border-top: red solid 10px; */
-    height: 75px;
-    width: 225px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.active {
-    border-top: red solid 10px;
-}
