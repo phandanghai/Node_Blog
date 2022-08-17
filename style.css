@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
+#header {
+}
+
 .ul {
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
@@ -28,6 +32,11 @@
     background-color: #ee8c01
 }
 
+.img {
+    display: flex;
+    justify-content: center;
+}
+
 .image {
     height: 45px;
     width: auto;
@@ -40,4 +49,30 @@
 
 .circleksystem {
     
+}
+
+#image{
+    ma
+}
+
+.checked {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.check-item {
+    background-color: green;
+    color:white;
+    border-radius:7px 7px 0 0;
+    /* border-top: red solid 10px; */
+    height: 75px;
+    width: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active {
+    border-top: red solid 10px;
 }
